@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/maquina-busca",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "João",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "require": {
+    "symfony/console": "  ^5.1",
+    "symfony/dom-crawler": "^5.0",
+    "symfony/css-selector": "^5.0",
+    "symfony/http-client": "^5.1"
+  }
+}
